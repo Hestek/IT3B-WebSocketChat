@@ -7,8 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-		<TextBox TextWrapping="Wrap" Text="TextBox" Margin="174,32,146,322" />
-		<TextBox TextWrapping="Wrap" Text="TextBox" Margin="174,137,146,97" />
+		
+		<TextBox TextWrapping="Wrap" Text="TextBox" Margin="10,27,310,327" />
+		<TextBox TextWrapping="Wrap" Text="TextBox" Margin="10,158,465,76" />
+		<TextBox TextWrapping="Wrap" Text="TextBox" Margin="465,158,10,76" />
+		<Label Content="Chatovací místnost&#xD;&#xA;" Margin="10,126,661,281"/>
+		<Label Content="Pripojeni/odpojeni" Margin="10,0,661,407"/>
+		<Label Content="Vlastní zpráva&#xD;&#xA;" Margin="465,126,206,281"/>
+		<Button Content="Odeslat" Margin="530,363,52,16"/>
+		<Button Content="Pripojit" Margin="594,78,75,308" Click="Button_Click"/>
+		<TextBox TextWrapping="Wrap" Text="TextBox" Margin="594,43,75,367"/>
+		<Label Content="Ip adresa&#xD;&#xA;" Margin="594,10,77,397"/>
 
 	</Grid>
 </Window>
